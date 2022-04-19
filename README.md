@@ -1,4 +1,4 @@
-# Walt Disney World
+# Walt Disney World Strategy
 **Project** - Compiling, cleaning, analyzing, and predicting wait times for Walt Disney World attractions.
 
 **Data source** - The wait time data spanning from January 2016 to December 2021 for thirteen attractions at the four WDW parks, courtesy of [TouringPlans.com](https://touringplans.com/blog/disney-world-wait-times-available-for-data-science-and-machine-learning/) (themselves a major player in the field of theme park data science).
