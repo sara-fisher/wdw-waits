@@ -1,4 +1,4 @@
-# wdw-waits
+# Walt Disney World
 **Project** - Compiling, cleaning, analyzing, and predicting wait times for Walt Disney World attractions.
 
 **Data source** - The wait time data spanning from January 2016 to December 2021 for thirteen attractions at the four WDW parks, courtesy of [TouringPlans.com](https://touringplans.com/blog/disney-world-wait-times-available-for-data-science-and-machine-learning/) (themselves a major player in the field of theme park data science).
@@ -12,3 +12,11 @@ One of our first clients is a couple looking to visit the WDW resort with their 
 - Expedition Everest, Avatar Flight of Passage, Kilimanjaro Safaris, and Navi River Journey in _Animal Kingdom_
 
 Their schedules are flexible and their PTO is generous enough that they can visit at whatever time of year we recommend, but they want assurances that they will be able to do everything they want to do when they get there. They are reluctant to rely on paid line-skipping services like Disney's [Lightning Lane](https://disneyworld.disney.go.com/genie/lightning-lane/) and would rather optimize their time to wait in the standby line for rides.
+
+**[Data cleaning](https://github.com/sara-fisher/wdw-waits/blob/main/WDW%20-%20Data%20Cleaning.ipynb)** - Removing observations with downtimes and major outliers, combining the individual datasets, exporting to CSV.
+
+**Analysis** - Analyzing general trends by park and ride over year, month, weekday, and hour to then pinpoint the ideal four-day visit in 2022, the ideal park to visit each day, and what rides to prioritize first thing.
+
+**[Dashboard](https://public.tableau.com/app/profile/sara5821/viz/WaltDisneyWorldWaitTimes2015-2021/Dashboard1)** - We've implemented an early dashboard based on our historical data for customers to check and interact with for further reference.
+
+**What's next?** - We hope to use park operations and weather data (also courtesy of TouringPlans.com) and - after some feature engineering - test multiple regression models to actually predict wait times for our customers' visits.
