@@ -15,7 +15,7 @@ Their schedules are flexible and their PTO is generous enough that they can visi
 
 **[Data cleaning](https://github.com/sara-fisher/wdw-waits/blob/main/WDW%20-%20Data%20Cleaning.ipynb)** - Removing observations with downtimes and major outliers, combining the individual datasets, exporting to CSV.
 
-**Analysis** - Analyzing general trends by park and ride over year, month, weekday, and hour to then pinpoint the ideal four-day visit in 2022, the ideal park to visit each day, and what rides to prioritize first thing.
+**[Analysis](https://github.com/sara-fisher/wdw-waits/blob/main/WDW%20-%20Data%20Viz%20and%20Analysis.ipynb)** - Analyzing general trends by park and ride over year, month, weekday, and hour to then pinpoint the ideal four-day visit in 2022, the ideal park to visit each day, and what rides to prioritize first thing.
 
 **[Dashboard](https://public.tableau.com/app/profile/sara5821/viz/WaltDisneyWorldWaitTimes2015-2021/Dashboard1)** - We've implemented an early dashboard based on our historical data for customers to check and interact with for further reference.
 
